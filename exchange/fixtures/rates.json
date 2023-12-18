@@ -1,0 +1,50 @@
+[
+  {
+  "model": "exchange.Rate",
+  "pk": 1,
+  "fields": {
+    "currency_from": "USD",
+    "currency_to": "UAH",
+    "sell": 29,
+    "buy": 30,
+    "provider": "monobank",
+    "date": "2020-01-01"
+  }
+},
+  {
+  "model": "exchange.Rate",
+  "pk": 2,
+  "fields": {
+    "currency_from": "EUR",
+    "currency_to": "UAH",
+    "sell": 32,
+    "buy": 34,
+    "provider": "monobank",
+    "date": "2020-01-01"
+  }
+},
+  {
+  "model": "exchange.Rate",
+  "pk": 3,
+  "fields": {
+    "currency_from": "USD",
+    "currency_to": "UAH",
+    "sell": 30,
+    "buy": 31,
+    "provider": "privatbank",
+    "date": "2020-01-01"
+  }
+},
+  {
+  "model": "exchange.Rate",
+  "pk": 4,
+  "fields": {
+    "currency_from": "EUR",
+    "currency_to": "UAH",
+    "sell": 33,
+    "buy": 35,
+    "provider": "privatbank",
+    "date": "2020-01-01"
+  }
+}
+]
